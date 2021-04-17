@@ -1,6 +1,6 @@
 <h1 align="center">URL shortener🔗</h1>
 <p align-"center">
-  <img src="src/assets/portfolio.gif" alt="E-commerce Inicial"/>
+  <img src="front-end/src/assets/portfolio.gif" alt="E-commerce Inicial"/>
 </p>
 
 <p align="center">
@@ -20,6 +20,11 @@
  <img src="https://github.com/yurinmk/styles-readme/blob/master/style-hexagon/MySQL.svg" alt="MySQL" style="vertical-align:top; margin:4px">
 
 </p>
+
+</br>
+
+<h1 align="center">Description</h1>
+<p align="center">Project that was requested as a challenge for a junior developer job. 🚀</p>
 
 </br>
 
