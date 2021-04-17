@@ -1,5 +1,5 @@
 <h1 align="center">URL shortener🔗</h1>
-<p align-"center">
+<p align="center">
   <img src="front-end/src/assets/portfolio.gif" alt="E-commerce Inicial"/>
 </p>
 
