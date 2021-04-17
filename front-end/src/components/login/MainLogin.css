@@ -1,0 +1,75 @@
+.container-mainLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-mainLogin .container-form-login form {
+  width: 500px;
+  height: 360px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  flex-direction: column;
+
+  background: #06558f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container-mainLogin .container-form-login form label {
+  width: 70%;
+  height: 50px;
+
+  display: flex;
+  align-items: flex-start;
+  font-size: 30px;
+  margin-top: 10px;
+
+  color: #fff;
+}
+
+.container-mainLogin .container-form-login form img {
+  width: 25px;
+  height: 25px;
+
+  position: relative;
+  bottom: 38px;
+  left: 150px;
+  cursor: pointer;
+}
+
+.container-mainLogin .container-form-login form img:active {
+  transform: scale(0.9);
+}
+
+.container-mainLogin .container-form-login form input {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+
+  border: 0;
+  border-radius: 10px;
+}
+
+.container-mainLogin .container-form-login form button {
+  width: 70%;
+  height: 50px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+
+  background: #7eb61f;
+
+  cursor: pointer;
+}
+
+.container-mainLogin .container-form-login form button:active {
+  transform: scale(0.9);
+}

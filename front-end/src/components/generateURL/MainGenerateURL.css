@@ -1,0 +1,95 @@
+.container-mainInputURL {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.container-mainInputURL .container-link form {
+  width: 740px;
+  height: 240px;
+  margin-top: 100px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  background: #06558f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container-mainInputURL .container-link .container-head {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-mainInputURL .container-link form .container-head img {
+  position: relative;
+  right: 120px;
+  cursor: pointer;
+}
+
+.container-mainInputURL .container-link form .container-head img:active {
+  transform: scale(0.9);
+}
+
+.container-mainInputURL .container-link form .container-head label {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.container-mainInputURL .container-link form input {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+
+  border: 0;
+  border-radius: 10px;
+}
+
+.container-mainInputURL .container-link .container-input {
+  width: 90%;
+  margin: 10px;
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-mainInputURL .container-link form button:active {
+  transform: scale(0.9);
+}
+
+.container-mainInputURL .container-link .container-input button {
+  width: 100px;
+  height: 52px;
+  margin: 10px;
+}
+
+.container-mainInputURL .container-link form button {
+  width: 60%;
+  height: 50px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+
+  background: #7eb61f;
+  cursor: pointer;
+}

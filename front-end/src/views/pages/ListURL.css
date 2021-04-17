@@ -1,0 +1,21 @@
+.container-listURL {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: "header" "main";
+
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #0dc3c3;
+}
+
+.container-listURL header {
+  grid-area: header;
+}
+
+.container-listURL main {
+  grid-area: main;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

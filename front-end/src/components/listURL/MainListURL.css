@@ -1,0 +1,145 @@
+.container-mainListURL {
+  width: 740px;
+  height: 650px;
+  margin-top: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+
+  background: #06558f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container-mainListURL-overflow {
+  width: 760px;
+  height: 650px;
+  margin-top: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  background: #06558f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container-geral {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+}
+.container-geral img {
+  width: 55px;
+  height: 55px;
+
+  top: 20px;
+  right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.container-geral img:active {
+  transform: scale(0.9);
+}
+
+.container-geral .container-list {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-geral .container-info {
+  width: 100%;
+  height: 190px;
+  margin-top: 20px;
+  padding: 10px;
+
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-geral .container-info .container-date {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-geral .container-info .container-date p {
+  width: 20%;
+  margin-left: 18px;
+
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.container-geral .container-info .container-date input {
+  width: 30%;
+  height: 25px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.container-geral .container-info .container-inputs {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-geral .container-info .container-inputs p {
+  width: 20%;
+
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.container-geral .container-info .container-inputs input {
+  width: 70%;
+  height: 25px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.container-geral .container-info .container-inputs img {
+  width: 20px;
+  height: 20px;
+
+  top: 0px;
+  right: 30px;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.container-geral .container-info .container-inputs img:active {
+  transform: scale(0.9);
+}
